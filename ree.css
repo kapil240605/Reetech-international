@@ -1,0 +1,398 @@
+html{
+	font-size: 100%;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	width: 100%;
+	height: 5.206rem;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.nav1{
+	width: 68.75rem;
+	height: 3.375rem;
+	display: flex;
+}
+.logo{
+	width: 12.5rem;
+	height: 3.041rem;
+	background-image: url('logo.png');
+	background-position: center;
+	background-size: cover;
+}
+.cont{
+	width: 51.401rem;
+	height: 3.375rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.9rem;
+	color: #7a7a7a;
+	margin-left: 6.563rem;
+}
+.cont ul a{
+	text-decoration: none;
+	color: #7a7a7a;
+	font-size: 0.9rem;
+	padding: 0.938rem;
+}
+.Home{
+	width: 100%;
+	height: 46.875rem;
+	background-image: url('home.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+.Home1{
+	position: absolute;
+	margin-top: 12.5rem;
+	margin-left: 1.875rem;
+}
+.Home1 h2{
+	font-size: 4.25rem;
+	color: #ffffff;
+	font-weight: 68.75rem;
+	padding: 0.438rem;
+}
+.Home1 h3{
+	font-size: 3rem;
+	color: #ffffff;
+	padding: 0.438rem;
+}
+.btn{
+	background-color: #ee692e;
+	font-size: 1rem;
+	padding: 0.938rem 1.875rem;
+	border-radius: 1.25rem;
+	color: white;
+	border: none;
+}
+.sec{
+	width: 100%;
+	height: 52.776rem;
+	margin-top: 2.5rem;
+	display: flex;
+}
+.h{
+   font-size: 3.125rem;
+   font-weight: bold;
+   text-align: center; 
+   margin-top: 6.25rem;
+}
+.sec1{
+	width: 38.125rem;
+	height: 48.125rem;
+	border-right: 0.063rem solid black;
+}
+.sec2{
+	width: 38.125rem;
+	height: 48.125rem;
+}
+.cont1{
+	width: 37.5rem;
+	height: 24.063rem;
+	border-bottom: 0.063rem solid black;
+	margin-left: 0.625rem;
+}
+.cont2{
+	width: 37.5rem;
+	height: 24.063rem;
+	margin-right: 0.625rem;
+}
+.cont3{
+	width: 37.5rem;
+	height: 24.063rem;
+	border-bottom: 0.063rem solid black;
+	margin-right: 0.625rem;
+}
+.cont4{
+	width: 37.5rem;
+	height: 24.063rem;
+	margin-right:0.625rem;
+}
+.coal1{
+      width: 29.375rem;
+      height: 13.438rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 3.125rem;
+}
+.img1{
+	width: 6.875rem;
+	height: 6.063rem;
+	background-image: url('coal1.png');
+	background-position: center;
+	background-size: cover;
+}
+.coalcnt{
+	width: 22.75rem;
+	height: 13.438rem;
+	margin-top: 5rem;
+	margin-left: 1.25rem;
+}
+.coalcnt h3{
+	color: #ee692e;
+	font-size: 1.563rem;
+	padding: 0.625rem;
+}
+.coalcnt p{
+	font-weight: 0.9rem;
+	color: #7a7a7a;
+}
+.img2{
+	width: 6.875rem;
+	height: 6.063rem;
+	background-image: url('coal2.png');
+	background-position: center;
+	background-size: cover;
+}
+.img3{
+	width: 6.875rem;
+	height: 6.063rem;
+	background-image: url('coal3.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.coal2{
+      width: 29.375rem;
+      height: 13.438rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 2.188rem;
+     }
+     .img4{
+	width: 6.875rem;
+	height: 6.063rem;
+	background-image: url('ship.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.secs{
+	width: 100%;
+	height: 44.125rem;
+	background-color: #7a7a7a;
+}
+.secs h3{
+	font-weight: bold;
+	font-size: 3.125rem;
+	color: white;
+	text-align: center;
+	padding: 1.875rem;
+}
+.supply{
+	width: 100%;
+	height: 20.125rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 4.688rem;
+}
+.supply1{
+	width: 25rem;
+	height: 18.75rem;
+	background-image: url('plant.png');
+	background-position: center;
+	background-size: cover;
+}
+.supply2{
+	width: 25rem;
+	height: 18.75rem;
+	background-image: url('mill.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.supply3{
+	width: 25rem;
+	height: 18.75rem;
+	background-image: url('iron.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.name{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+.name h4{
+	width: 23.5rem;
+	color: white;
+	font-size: 1.25rem;
+	font-weight: bold;
+	padding: 1.25rem;
+	text-align: center;
+}
+.secs1{
+	width: 100%;
+	height: 36.25rem;
+	background-color: #ee692e;
+}
+.secs1 h3{
+	width: 76.25rem;
+	font-size: 3.125rem;
+	color: white;
+	text-align: center;
+	padding: 2.5rem;
+}
+.secs1 p{
+	font-size: 1.2rem;
+	color: black;
+	text-align: center;
+	width: 76.25rem;
+	padding: 0.938rem;
+}
+.cst{
+	width: 75rem;
+	height: 5.063rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.875rem;
+}
+.cst1{
+	width: 36.875rem;
+	height: 5rem;
+	color: white;
+	padding: 1.875rem;
+}
+.cst2{
+	width: 36.875rem;
+	height: 5rem;
+	color: white;
+	padding: 1.875rem; 
+}
+.inv{
+	width: 75rem;
+	height: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 1.875rem;
+}
+.inv1{
+	width: 17.5rem;
+	height: 4.313rem;
+	padding-right: 1.25rem;
+}
+.nm{
+	font-size: 1.25rem;
+	color: white;
+}
+.wk{
+	font-size: 0.938rem;
+	color: white;
+	padding-top: 0.438rem;
+}
+.secs2{
+	width: 100%;
+	height: 21.875rem;
+}
+.secs2 h3{
+	width: 70rem;
+	font-size: 3.125rem;
+	color: #54595f;
+	text-align: center;
+	padding: 1.875rem;
+}
+.clients{
+	width: 100%;
+	height: 18.125rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 1.25rem;
+}
+.clt{
+	height: 18.125rem;
+}
+footer{
+	width: 100%;
+	height: 17.5rem;
+	background-color: #081726;
+}
+.ft1{
+	width: 68.75rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 2.5rem;
+}
+.ftc h2{
+	color: white;
+	font-size: 1.125rem;
+	padding: 0.25rem;
+}
+.ftc p{
+	color: #cccccc;
+	font-size: 0.938rem;
+	padding: 0.094rem;
+}
+.ftc3 ul {
+	display: block;
+}
+.ftc3 h2{
+	color: white;
+	font-size: 1.125rem;
+	padding: 0.25rem;
+}
+.ftc3 ul p{
+  color: #cccccc;
+  font-size: 0.938rem;
+  padding: 0.188rem;
+  text-decoration: none;
+}
+
+@media(max-width: 1200px){
+	html{
+		font-size: 95%;
+	}
+}
+@media(max-width: 1173px){
+	html{
+		font-size: 90%;
+	}
+}
+@media(max-width: 1100px){
+	html{
+		font-size: 85%;
+	}
+}
+@media(max-width: 1000px){
+	html{
+		font-size: 80%;
+	}
+}
+@media(max-width: 900px){
+	html{
+		font-size: 75%;
+	}
+}
+@media(max-width: 635px){
+	html{
+		font-size: 70%;
+	}
+}
+@media(max-width: 460px){
+	html{
+		font-size: 65%;
+	}
+}
+@media(max-width: 300px){
+	html{
+		font-size: 60%;
+	}
+}
+@media(max-width: 270px){
+	html{
+		font-size: 55%;
+	}
+}
